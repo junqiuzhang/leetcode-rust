@@ -1,7 +1,7 @@
-mod p7;
-use p7::Solution;
+mod p9;
+use p9::Solution;
 fn main() {
-    let x = 1534236469;
-    let s = Solution::reverse(x);
+    let x = 121;
+    let s = Solution::is_palindrome(x);
     println!("{:?}", s);
 }
