@@ -6,20 +6,20 @@ mod p9_tests {
 
     #[test]
     fn test_case_1() {
-        let x: i32 = 121;
-        let expected: bool = true;
+        let x = 121;
+        let expected = true;
         assert_eq!(Solution::is_palindrome(x), expected);
     }
     #[test]
     fn test_case_2() {
-        let x: i32 = -121;
-        let expected: bool = false;
+        let x = -121;
+        let expected = false;
         assert_eq!(Solution::is_palindrome(x), expected);
     }
     #[test]
     fn test_case_3() {
-        let x: i32 = 10;
-        let expected: bool = false;
+        let x = 10;
+        let expected = false;
         assert_eq!(Solution::is_palindrome(x), expected);
     }
 }

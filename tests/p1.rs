@@ -6,23 +6,23 @@ mod p1_tests {
 
     #[test]
     fn test_case_1() {
-        let nums: Vec<i32> = [2, 7, 11, 15].to_vec();
-        let target: i32 = 9;
-        let expected: Vec<i32> = [0, 1].to_vec();
+        let nums = vec![2, 7, 11, 15];
+        let target = 9;
+        let expected = vec![0, 1];
         assert_eq!(Solution::two_sum(nums, target), expected);
     }
     #[test]
     fn test_case_2() {
-        let nums: Vec<i32> = [3, 2, 4].to_vec();
-        let target: i32 = 6;
-        let expected: Vec<i32> = [1, 2].to_vec();
+        let nums = vec![3, 2, 4];
+        let target = 6;
+        let expected = vec![1, 2];
         assert_eq!(Solution::two_sum(nums, target), expected);
     }
     #[test]
     fn test_case_3() {
-        let nums: Vec<i32> = [3, 3].to_vec();
-        let target: i32 = 6;
-        let expected: Vec<i32> = [0, 1].to_vec();
+        let nums = vec![3, 3];
+        let target = 6;
+        let expected = vec![0, 1];
         assert_eq!(Solution::two_sum(nums, target), expected);
     }
 }

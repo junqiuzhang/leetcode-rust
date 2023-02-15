@@ -6,26 +6,26 @@ mod p7_tests {
 
     #[test]
     fn test_case_1() {
-        let x: i32 = 123;
-        let expected: i32 = 321;
+        let x = 123;
+        let expected = 321;
         assert_eq!(Solution::reverse(x), expected);
     }
     #[test]
     fn test_case_2() {
-        let x: i32 = -123;
-        let expected: i32 = -321;
+        let x = -123;
+        let expected = -321;
         assert_eq!(Solution::reverse(x), expected);
     }
     #[test]
     fn test_case_3() {
-        let x: i32 = 120;
-        let expected: i32 = 21;
+        let x = 120;
+        let expected = 21;
         assert_eq!(Solution::reverse(x), expected);
     }
     #[test]
     fn test_case_4() {
-        let x: i32 = 0;
-        let expected: i32 = 0;
+        let x = 0;
+        let expected = 0;
         assert_eq!(Solution::reverse(x), expected);
     }
 }
