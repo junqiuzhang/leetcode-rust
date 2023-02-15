@@ -1,7 +1,7 @@
 #[path = "../problems/p9.rs"]
 mod p9;
 #[cfg(test)]
-mod tests {
+mod p9_tests {
     use crate::p9::Solution;
 
     #[test]
